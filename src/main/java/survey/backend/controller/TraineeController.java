@@ -81,6 +81,7 @@ public class TraineeController {
 //                .firstName("John")
 //                .birthDate(LocalDate.of(1900, 7, 1))
 //                .build());
+        //Reponse fictive
     }
 
     @GetMapping("search")
