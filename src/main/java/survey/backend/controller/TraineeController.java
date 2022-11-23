@@ -66,7 +66,7 @@ public class TraineeController {
     }
 
     @GetMapping("{id}")
-    public TraineeDto one(@PathVariable("id") int id) {
+    public TraineeDto getById(@PathVariable("id") int id) {
         Optional<TraineeDto> optTraineeDto = traineeService.findById(id);
         if (optTraineeDto.isPresent()){
             return optTraineeDto.get();
